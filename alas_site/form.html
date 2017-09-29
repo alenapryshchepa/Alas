@@ -1,0 +1,58 @@
+<!Doctype html>
+
+<html>
+    <head>
+		<link rel="stylesheet" href="css/form.css"/>
+		<link rel="stylesheet" href="css/font-awesome.css"/>
+		<meta charset="utf-8"/>
+		<title>Форма</title>
+		<script src="script/form.js"></script>
+		
+	</head>
+
+	<body>
+	<div class="page">
+	
+		<header>
+			<h1 class="header">Обратная связь</h1>
+			<div class="top_block"></div>
+		</header>
+	   
+	    <div class="logo">
+			<div id="alas">ALAS</div>
+			<div id="geo"><p id="geodesy">геодезия</p><p id="geology">геология</p></div>
+		</div>
+			
+		<form name="myForm" onsubmit= " return validate(this); ">
+	<table>
+	<tr><td colspan="3"><h3>Вы можете связаться с нами используя онлайн форму обратной связи. Оставьте свои контактные данные и мы ответим Вам!</h3></td></tr>
+
+		<tr><td><sup>*</sup>Вас зовут</td><td><input type="text" name="name" maxlength = "25" placeholder="Петров Петр Казимирович"></td></tr>	
+		<tr><td><sup>*</sup>Ваши контактные данные</td><td><input type="text" name="phone" maxlength = "24" placeholder="+375 25 ХХХ ХХ ХХ"></td></tr>	
+		<tr><td><sup>*</sup>E-mail</td><td><input type="text" name="mail" maxlength = "24" placeholder="name@mail.ru"></td></tr>
+		<tr><td colspan="3"><h4>Вас интересуют:</h4></td></tr>		
+		<tr><td><input id="geology" type="checkbox" name="check"value="geology"/>Геологические изыскания</td></tr>	
+		<tr><td><input id="geodesy" type="checkbox" name="check" value="geodesy"/>Геодезические изыскания</td></tr>	
+		<tr><td><sup>*</sup>Напишите вопрос</td><td><textarea id="text" name="question" rows="5" cols="50"/> </textarea></td></tr>	
+		<tr><td></td><td> * - поля, обязательные к заполнению</td></tr>
+		<tr><td></td><td><input id="submit" type="submit"  value="ОТПРАВИТЬ"></td></tr>	
+		
+	</table>
+	</form>
+		<div class="phone"><span>+37529 356 4 185</span> <div id="circle"><img src="image/kontakty.png" alt="пиктограмма контакты"></div></div>
+	</div>
+	     
+	    <div class="bottom_block"> 
+	        <span>г. Слуцк</span> <i>Минская обл. Республика Беларусь</i><a href="#"><img src="image/location.png"/> </a>
+	        <span class="social_network"><a href="http://ok.ru/"><button type="button" name="button">Oд</button></a>
+			<a href="https://vk.com"><button type="button" name="button">В</button></a>
+			<a href="https://www.facebook.com/"><button type="button" name="button" class="f">F</button></a></span>
+	   </div>
+	   
+	   <footer>
+			2016 © Прищепа Елена
+			<span><a href="index.html"><b>Главная</b></a>    |     <a href="#">Услуги</a>     |   <a href="#">Контакты</a></span>
+	   </footer>   
+	</body> 
+</html>
+

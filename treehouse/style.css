@@ -134,6 +134,10 @@ nav{
 	font-weight:bold;
 }
 
+.substrate button:focus{
+	outline:none;
+}	
+
 .substrate a :hover{
 	background:#fff;
 	color:#000;
@@ -220,6 +224,10 @@ nav{
 	color:#fff;
 	font-weight:bold;
 }
+
+.readyTolk button:focus{
+	outline:none;
+}	
 
 .readyTolk a :hover{
 	background:#fff;

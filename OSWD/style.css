@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:750px;
+	margin:auto;
+	margin-top:10px;
+	font:10pt Verdana, Arial;
+	border:1px solid #c0c0c0;	
+}
+.aside p, .menu{
+	font:10pt Vani, Arial;
+}
+
+.aside p{
+		line-height:16px;
+		margin:12px 0 15px;
+}
+
+.header{
+	text-align:right;
+	font:20pt Vani, Arial;
+	letter-spacing:5px;
+	background:url(diags.jpg);
+	background-size:contain;
+	padding:50px 50px 50px 0;
+	color:#dd8200;
+	line-height:20px;
+	font-weight:bold;
+}
+
+h2{
+	font:10pt Verdana, Arial;
+	font-size:10pt;
+	letter-spacing:normal;
+	text-transform:uppercase;
+	color:#35a8e0;
+	font-weight:normal;
+}
+
+.aside{
+	width:180px;
+	float:left;	
+	margin:0 50px 30px 10px;
+	font-size:8pt;
+}
+
+.aside li{
+	margin-left:10px;
+}
+
+li{
+	list-style:none;
+}
+
+.menu li{
+	float:left;
+	width:11%;
+	text-align:center;
+	height:10px;
+}
+
+.homepage{
+	border-top:1px dashed #dc8327;
+	margin-left:-12px;
+}
+
+.footer a,.menu a{
+	text-decoration:none;
+}
+
+.content{	
+	width:auto;
+	line-height:1.5;
+	margin:0 10px 20px 0;
+	color:#808080;
+}
+
+.content h2{
+	line-height:4;
+}
+
+.sites{
+	margin:10px;
+}
+
+.sites a{
+	text-transform:none;
+	color:#c0c0c0;
+	line-height:2;
+}
+
+.sites h2{
+	margin:10px 0 10px 0;
+}
+
+.footer{
+	clear:left;
+	text-align:right;
+	padding:5px 10px 5px 0;
+	background:url(diags.jpg);
+	background-repeat:repeat-x;
+	background-size:auto 70px;
+	width:740px;
+	text-transform:uppercase;
+	font:8pt Verdana, Arial;	
+}
+
+.footer a{
+	color:#000;	
+}
+
+.menu a{
+	color:#007cb0;
+}

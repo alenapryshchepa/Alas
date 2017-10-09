@@ -1,0 +1,109 @@
+  <!Doctype html>
+<html>
+
+    <head>
+	    <link rel="stylesheet" href="style.css"/>
+		<meta charset="utf-8"/> 
+		<title>Форма</title>
+	</head>
+	
+	<body>
+	    <form action="/sender.php">
+		
+		    <h1>Основные данные:</h1>
+	        
+			<div class="text">
+			    <p><label for="pen_name"><sup>*</sup>Псевдоним:</label></p>
+			    <p><label for="password1"><sup>*</sup>Пароль:</label></p>
+			    <p><label for="password2"><sup>*</sup>Повтор пароля:</p>
+				</br>
+				
+				<p><label for="surname"><sup>*</sup>Фамилия:</label></p>
+				<p><label for="name"><sup>*</sup>Имя:</label></P>
+				<p><label for="patronymic"><sup>*</sup>Отчество:</label></P>
+				</br>
+				
+				<p>Пол:</P>
+				<p><label for="day"><sup>*</sup>Дата рождения(дд.мм.ГГГГ):</label></P>
+				<p><label for="city"><sup>*</sup>Место проживания(город):</label></P>
+				<p><label for="country"><sup>*</sup>Страна проживания:</label></P>
+			</div>
+			
+			<div class="field">
+			    <p><input id="pen_name"type="text" name="alias" value=""/><p>
+			    <p><input id="password1" type="password" name="password" value=""/></p>
+			    <p><input id="password2" type="password" name="password" value=""/></p>
+				</br>
+				
+				<p><input id="surname" type="text" name="surname" value=""/></p>
+				<p><input id="name" type="text" name="name" value=""/></p>
+				<p><input id="patronymic" type="text" name="patronymic" value=""/></p>
+				</br>
+				
+				<p><label for="man"><input id="man" type="radio" name="sex" value="1"/>мужской </label>
+				   <label for="female"><input id="female" type="radio" name="sex" value="2"/>женский </label>
+				</P>
+				
+				<p><input id="day" type="text" name="day" value=""/> .
+				   <input id="month" type="text" name="month" value=""/>.
+				   <input id="year" type="text" name="year" value=""/>
+				</p>
+				
+				<p><input id="city" type="text" name="city" value=""/></p>
+				<p><input id="country" type="text" name="country" value=""/></p>
+			</div>	
+		
+			<h1>Дополнительно:</h1>
+			
+			<div class="text">
+			    <p><label for="image">Аватар:</label></P>
+				<p><label for="foto">Фото:</label></P>
+				<p class="text_indent"><label for="text">Подпись к сообщениям:</label></P>
+				<p><label for="link">Сделать ссылкой:</label></P>
+			</div>
+			
+			<div class="field">
+			    <p><input id="image" type="file" accept="image/jpeg,image/png" name="image" value=""/></p>
+				<p><input id="foto" type="file"  accept="image/jpeg,image/png" name="foto" value=""/></p>
+				<p><textarea id="text" name="text"rows="5" cols="50"/> </textarea></p>
+				<p><input id="link" type="text" name="link" value=""/></p>
+			</div>
+			
+			<h1>Контакты:</h1>
+			
+			<div class="text">
+			    <p><label for="E-mail"><sup>*</sup>E-mail:</label></P>
+				<p><label for="phone">Телефон:</label></P>
+				<p><label for="web_site">Веб-сайт:</label></P>
+				<p><label for="blog">Блог:</label></P>
+				<p><label for="ICQ">ICQ:</label></P>
+				<p><label for="AIM">AIM:</label></P>
+				<p><label for="MSN">MSN:</label></P>
+			</div>
+			
+			<div class="field">
+			    <p><input id="E-mail"type="text" name="E-mail" value=""/><p>
+			    <p><input id="phone" type="text" name="phone" value=""/></p>
+			    <p><input id="web_site" type="text" name="web_site" value=""/></p>
+				<p><input id="blog"type="text" name="blog" value=""/><p>
+			    <p><input id="ICQ" type="text" name="ICQ" value=""/></p>
+			    <p><input id="AIM" type="text" name="AIM" value=""/></p>
+				<p><input id="MSN" type="text" name="MSN" value=""/></p>
+		    </div>
+			
+			<h1>Интересы:</h1>
+			
+			<div class="text"></div>
+			<div class="field">
+			    <input id="auto" type="checkbox" name="check" value="car"/><label for="auto"> автомобили</label></br>
+				<input id="sport" type="checkbox" name="check"value="sport"/><label for="sport"> спорт</label></br>
+				<input id="travel" type="checkbox" name="check"value="travel"/><label for="travel"> путешествия, туризм</label></br>
+				<input id="education" type="checkbox" name="check"value="education"/><label for="education"> образование, наука</label></br>
+				<input id="business" type="checkbox" name="check"value="business"/><label for="business"> бизнес</label></br>
+				<input id="finance" type="checkbox" name="check"value="finance"/><label for="finance"> финансы, банковские услуги</label></br>
+				<input id="policy" type="checkbox" name="check"value="policy"/><label for="policy"> политика</label></br>
+			</div>
+			
+		</form>
+	</body>
+</html>

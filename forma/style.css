@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#eae6db;
+	color:#555;
+}
+
+form{
+	width:auto;
+	text-align:center;
+}
+
+h1{
+	margin:20px 0 10px 0;
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+input{
+	height:auto;	
+}
+
+.text, .field{
+	 display:inline-block;
+	 width:320px;
+     line-height:1.4em; 	 
+}
+.text{
+	 text-align:right ;
+ }
+ 
+ .field{
+	 text-align:left;
+ }
+ 
+ sup{
+	color:red;
+    vertical-align:top;	
+ }
+ 
+#password1, #password2{
+	width:100px;
+ }
+
+
+#day, #month{
+	width:20px;
+}
+
+#year{
+	width:50px;
+}
+
+#surname{
+	width:250px;
+}
+
+#name{
+	width:220px;
+}
+
+#patronymic, #text, #link,#phone, #web_site, #blog{
+	width:300px;
+}
+
+#text{
+	height:60px;
+}
+
+#city{
+	width:130px;
+}
+
+#country{
+	width:145px;
+}
+.text_indent{
+	margin-bottom:45px;
+}
+
+textarea{
+	resize:none;
+}
+
+
